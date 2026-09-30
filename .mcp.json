@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "local-us-census-bureau-data-api-mcp": {
+      "command": "bash",
+      "args": ["./scripts/mcp-connect.sh"],
+      "env": { "CENSUS_API_KEY": "80040123332229951f27175b9058e54b4d9c6a48" }
+    }
+  }
+}
